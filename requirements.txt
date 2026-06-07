@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────
+#  F1 Telemetry Dashboard — Python Dependencies
+# ─────────────────────────────────────────────
+
+# Core framework
+streamlit>=1.35.0
+
+# F1 data access
+fastf1>=3.3.0
+
+# Data manipulation
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Visualisation
+plotly>=5.22.0
+
+# HTTP / async (required by fastf1 internals)
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Caching utilities (fastf1 optional speedup)
+python-dateutil>=2.9.0
